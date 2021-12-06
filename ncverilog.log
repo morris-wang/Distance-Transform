@@ -1,0 +1,600 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Dec 06, 2021 at 16:46:27 CST
+ncverilog
+	testfixture.v
+	DT_syn.v
+	-v
+	tsmc13_neg.v
+	+define+SDF
+	+define+TB1
+file: testfixture.v
+	module worklib.testfixture:v
+		errors: 0, warnings: 0
+	module worklib.sti_ROM:v
+		errors: 0, warnings: 0
+	module worklib.res_RAM:v
+		errors: 0, warnings: 0
+file: DT_syn.v
+	module worklib.DT_DW01_inc_0:v
+		errors: 0, warnings: 0
+	module worklib.DT_DW01_inc_1:v
+		errors: 0, warnings: 0
+	module worklib.DT_DW01_inc_2:v
+		errors: 0, warnings: 0
+	module worklib.DT_DW01_dec_0:v
+		errors: 0, warnings: 0
+	module worklib.DT_DW01_inc_3:v
+		errors: 0, warnings: 0
+	module worklib.DT_DW01_inc_4:v
+		errors: 0, warnings: 0
+	module worklib.DT:v
+		errors: 0, warnings: 0
+file: tsmc13_neg.v
+	module tsmc13_neg.INVXL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.INVX1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.INVX3:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.INVX8:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AND2X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AND2X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AND3X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AND3X8:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AND4X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AOI21X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AOI211X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AOI22X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AOI221XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AOI222XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AOI2BB1X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AOI2BB2XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AOI2BB2X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AO21X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AO22X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND2XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND2X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND3X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND3X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND4X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND4X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND2BX1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND3BX1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND4BX1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR2XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR2X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR3X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR4XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR4X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR2BXL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR2BX1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR3BXL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OR2XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OR2X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OR3X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OR4X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI21XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI21X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI211X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI211X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI22XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI221XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI221X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI31XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI33X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI2BB1X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI2BB1X4:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI2BB2XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OA21X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OA22X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OA22X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.XOR2X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.XNOR2X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.CLKBUFX3:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.CLKINVX1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.ADDHXL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.ADDHX1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.ADDHX2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.ADDHX4:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.CMPR22X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.DFFRX1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.DFFRX2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.DFFRX4:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.DFFSX2:v
+		errors: 0, warnings: 0
+	primitive tsmc13_neg.udp_dff:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+		Caching library 'tsmc13_neg' ....... Done
+	Elaborating the design hierarchy:
+  DFFRX2 res_rd_reg ( .D(n192), .CK(clk), .RN(n300), .Q(res_rd) );
+                  |
+ncelab: *W,CUVWSP (./DT_syn.v,216|18): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX1 \state_cs_reg[3]  ( .D(state_ns[3]), .CK(clk), .RN(reset), .Q(
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,225|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \cnt_reg[3]  ( .D(n226), .CK(clk), .RN(n301), .QN(n231) );
+                    |
+ncelab: *W,CUVWSP (./DT_syn.v,233|20): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): Q
+
+  DFFRX1 \state_cs_reg[1]  ( .D(state_ns[1]), .CK(clk), .RN(reset), .Q(
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,272|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+	Reading SDF file from location "./DT_syn.sdf"
+	Writing compiled SDF file to "DT_syn.sdf.X".
+	Annotating SDF timing data:
+		Compiled SDF file:     DT_syn.sdf.X
+		Log file:              
+		Backannotation scope:  testfixture.u_dut
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U475 of module XNOR2X1 <./DT_syn.sdf, line 2428>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U475 of module XNOR2X1 <./DT_syn.sdf, line 2429>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U475 of module XNOR2X1 <./DT_syn.sdf, line 2432>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U475 of module XNOR2X1 <./DT_syn.sdf, line 2433>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U473 of module XNOR2X1 <./DT_syn.sdf, line 2454>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U473 of module XNOR2X1 <./DT_syn.sdf, line 2455>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U473 of module XNOR2X1 <./DT_syn.sdf, line 2458>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U473 of module XNOR2X1 <./DT_syn.sdf, line 2459>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U471 of module XNOR2X1 <./DT_syn.sdf, line 2480>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U471 of module XNOR2X1 <./DT_syn.sdf, line 2481>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U471 of module XNOR2X1 <./DT_syn.sdf, line 2484>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U471 of module XNOR2X1 <./DT_syn.sdf, line 2485>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U469 of module XNOR2X1 <./DT_syn.sdf, line 2506>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U469 of module XNOR2X1 <./DT_syn.sdf, line 2507>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U469 of module XNOR2X1 <./DT_syn.sdf, line 2510>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U469 of module XNOR2X1 <./DT_syn.sdf, line 2511>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U467 of module XNOR2X1 <./DT_syn.sdf, line 2532>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U467 of module XNOR2X1 <./DT_syn.sdf, line 2533>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U467 of module XNOR2X1 <./DT_syn.sdf, line 2536>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U467 of module XNOR2X1 <./DT_syn.sdf, line 2537>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U465 of module XNOR2X1 <./DT_syn.sdf, line 2558>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U465 of module XNOR2X1 <./DT_syn.sdf, line 2559>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U465 of module XNOR2X1 <./DT_syn.sdf, line 2562>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U465 of module XNOR2X1 <./DT_syn.sdf, line 2563>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U463 of module XOR2X1 <./DT_syn.sdf, line 2584>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U463 of module XOR2X1 <./DT_syn.sdf, line 2585>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U463 of module XOR2X1 <./DT_syn.sdf, line 2588>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U463 of module XOR2X1 <./DT_syn.sdf, line 2589>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U461 of module XOR2X1 <./DT_syn.sdf, line 2610>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U461 of module XOR2X1 <./DT_syn.sdf, line 2611>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U461 of module XOR2X1 <./DT_syn.sdf, line 2614>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U461 of module XOR2X1 <./DT_syn.sdf, line 2615>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U459 of module XOR2X1 <./DT_syn.sdf, line 2636>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U459 of module XOR2X1 <./DT_syn.sdf, line 2637>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U459 of module XOR2X1 <./DT_syn.sdf, line 2640>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U459 of module XOR2X1 <./DT_syn.sdf, line 2641>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U457 of module XOR2X1 <./DT_syn.sdf, line 2662>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U457 of module XOR2X1 <./DT_syn.sdf, line 2663>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U457 of module XOR2X1 <./DT_syn.sdf, line 2666>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U457 of module XOR2X1 <./DT_syn.sdf, line 2667>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U455 of module XOR2X1 <./DT_syn.sdf, line 2688>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U455 of module XOR2X1 <./DT_syn.sdf, line 2689>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U455 of module XOR2X1 <./DT_syn.sdf, line 2692>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U455 of module XOR2X1 <./DT_syn.sdf, line 2693>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U453 of module XOR2X1 <./DT_syn.sdf, line 2714>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U453 of module XOR2X1 <./DT_syn.sdf, line 2715>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U453 of module XOR2X1 <./DT_syn.sdf, line 2718>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U453 of module XOR2X1 <./DT_syn.sdf, line 2719>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U451 of module XOR2X1 <./DT_syn.sdf, line 2740>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U451 of module XOR2X1 <./DT_syn.sdf, line 2741>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U451 of module XOR2X1 <./DT_syn.sdf, line 2744>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U451 of module XOR2X1 <./DT_syn.sdf, line 2745>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U450 of module XNOR2X1 <./DT_syn.sdf, line 2756>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U450 of module XNOR2X1 <./DT_syn.sdf, line 2757>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U450 of module XNOR2X1 <./DT_syn.sdf, line 2760>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U450 of module XNOR2X1 <./DT_syn.sdf, line 2761>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U448 of module XNOR2X1 <./DT_syn.sdf, line 2782>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U448 of module XNOR2X1 <./DT_syn.sdf, line 2783>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U448 of module XNOR2X1 <./DT_syn.sdf, line 2786>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U448 of module XNOR2X1 <./DT_syn.sdf, line 2787>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U446 of module XNOR2X1 <./DT_syn.sdf, line 2808>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U446 of module XNOR2X1 <./DT_syn.sdf, line 2809>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U446 of module XNOR2X1 <./DT_syn.sdf, line 2812>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U446 of module XNOR2X1 <./DT_syn.sdf, line 2813>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U444 of module XNOR2X1 <./DT_syn.sdf, line 2834>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U444 of module XNOR2X1 <./DT_syn.sdf, line 2835>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U444 of module XNOR2X1 <./DT_syn.sdf, line 2838>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U444 of module XNOR2X1 <./DT_syn.sdf, line 2839>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U442 of module XNOR2X1 <./DT_syn.sdf, line 2860>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U442 of module XNOR2X1 <./DT_syn.sdf, line 2861>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U442 of module XNOR2X1 <./DT_syn.sdf, line 2864>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U442 of module XNOR2X1 <./DT_syn.sdf, line 2865>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U440 of module XOR2X1 <./DT_syn.sdf, line 2886>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U440 of module XOR2X1 <./DT_syn.sdf, line 2887>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U440 of module XOR2X1 <./DT_syn.sdf, line 2890>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U440 of module XOR2X1 <./DT_syn.sdf, line 2891>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U438 of module XNOR2X1 <./DT_syn.sdf, line 2912>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U438 of module XNOR2X1 <./DT_syn.sdf, line 2913>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U438 of module XNOR2X1 <./DT_syn.sdf, line 2916>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U438 of module XNOR2X1 <./DT_syn.sdf, line 2917>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U436 of module XNOR2X1 <./DT_syn.sdf, line 2938>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U436 of module XNOR2X1 <./DT_syn.sdf, line 2939>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U436 of module XNOR2X1 <./DT_syn.sdf, line 2942>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U436 of module XNOR2X1 <./DT_syn.sdf, line 2943>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U434 of module XNOR2X1 <./DT_syn.sdf, line 2964>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U434 of module XNOR2X1 <./DT_syn.sdf, line 2965>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U434 of module XNOR2X1 <./DT_syn.sdf, line 2968>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U434 of module XNOR2X1 <./DT_syn.sdf, line 2969>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U432 of module XNOR2X1 <./DT_syn.sdf, line 2990>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U432 of module XNOR2X1 <./DT_syn.sdf, line 2991>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U432 of module XNOR2X1 <./DT_syn.sdf, line 2994>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U432 of module XNOR2X1 <./DT_syn.sdf, line 2995>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U430 of module XNOR2X1 <./DT_syn.sdf, line 3016>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U430 of module XNOR2X1 <./DT_syn.sdf, line 3017>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U430 of module XNOR2X1 <./DT_syn.sdf, line 3020>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U430 of module XNOR2X1 <./DT_syn.sdf, line 3021>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U428 of module XNOR2X1 <./DT_syn.sdf, line 3042>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U428 of module XNOR2X1 <./DT_syn.sdf, line 3043>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U428 of module XNOR2X1 <./DT_syn.sdf, line 3046>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U428 of module XNOR2X1 <./DT_syn.sdf, line 3047>.
+ncelab: *W,SDFNDP: Annotation resulted in a negative delay value or pulse limit to specify path or interconnect delay ((IOPATH B0 Y)), setting to 0 <./DT_syn.sdf, line 3076>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U424 of module XOR2X1 <./DT_syn.sdf, line 3087>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U424 of module XOR2X1 <./DT_syn.sdf, line 3088>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U424 of module XOR2X1 <./DT_syn.sdf, line 3091>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U424 of module XOR2X1 <./DT_syn.sdf, line 3092>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U405 of module XNOR2X1 <./DT_syn.sdf, line 3307>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U405 of module XNOR2X1 <./DT_syn.sdf, line 3308>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U405 of module XNOR2X1 <./DT_syn.sdf, line 3311>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U405 of module XNOR2X1 <./DT_syn.sdf, line 3312>.
+ncelab: *W,SDFNDP: Annotation resulted in a negative delay value or pulse limit to specify path or interconnect delay ((IOPATH B0 Y)), setting to 0 <./DT_syn.sdf, line 3368>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U396 of module XOR2X1 <./DT_syn.sdf, line 3409>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U396 of module XOR2X1 <./DT_syn.sdf, line 3410>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U396 of module XOR2X1 <./DT_syn.sdf, line 3413>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U396 of module XOR2X1 <./DT_syn.sdf, line 3414>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U350 of module XNOR2X1 <./DT_syn.sdf, line 3925>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U350 of module XNOR2X1 <./DT_syn.sdf, line 3926>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U350 of module XNOR2X1 <./DT_syn.sdf, line 3929>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U350 of module XNOR2X1 <./DT_syn.sdf, line 3930>.
+ncelab: *W,SDFNDP: Annotation resulted in a negative delay value or pulse limit to specify path or interconnect delay ((IOPATH B0 Y)), setting to 0 <./DT_syn.sdf, line 4080>.
+ncelab: *W,SDFNDP: Annotation resulted in a negative delay value or pulse limit to specify path or interconnect delay ((IOPATH B0 Y)), setting to 0 <./DT_syn.sdf, line 4110>.
+ncelab: *W,SDFNDP: Annotation resulted in a negative delay value or pulse limit to specify path or interconnect delay ((IOPATH B0 Y)), setting to 0 <./DT_syn.sdf, line 4749>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.U273 of module XOR2X1 <./DT_syn.sdf, line 4808>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.U273 of module XOR2X1 <./DT_syn.sdf, line 4809>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.U273 of module XOR2X1 <./DT_syn.sdf, line 4812>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.U273 of module XOR2X1 <./DT_syn.sdf, line 4813>.
+ncelab: *W,SDFNDP: Annotation resulted in a negative delay value or pulse limit to specify path or interconnect delay ((IOPATH B0 Y)), setting to 0 <./DT_syn.sdf, line 5306>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.r452.U2 of module XOR2X1 <./DT_syn.sdf, line 6636>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.r452.U2 of module XOR2X1 <./DT_syn.sdf, line 6637>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.r452.U2 of module XOR2X1 <./DT_syn.sdf, line 6640>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.r452.U2 of module XOR2X1 <./DT_syn.sdf, line 6641>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r452.U1_1_1 of module ADDHXL <./DT_syn.sdf, line 6663>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r452.U1_1_1 of module ADDHXL <./DT_syn.sdf, line 6664>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r452.U1_1_1 of module ADDHXL <./DT_syn.sdf, line 6667>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r452.U1_1_1 of module ADDHXL <./DT_syn.sdf, line 6668>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r452.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 6681>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r452.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 6682>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r452.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 6685>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r452.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 6686>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r452.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 6699>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r452.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 6700>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r452.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 6703>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r452.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 6704>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r452.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 6717>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r452.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 6718>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r452.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 6721>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r452.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 6722>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r452.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 6735>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r452.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 6736>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r452.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 6739>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r452.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 6740>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r452.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 6753>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r452.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 6754>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r452.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 6757>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r452.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 6758>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r452.U1_1_7 of module ADDHXL <./DT_syn.sdf, line 6771>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r452.U1_1_7 of module ADDHXL <./DT_syn.sdf, line 6772>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r452.U1_1_7 of module ADDHXL <./DT_syn.sdf, line 6775>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r452.U1_1_7 of module ADDHXL <./DT_syn.sdf, line 6776>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r452.U1_1_8 of module ADDHXL <./DT_syn.sdf, line 6789>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r452.U1_1_8 of module ADDHXL <./DT_syn.sdf, line 6790>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r452.U1_1_8 of module ADDHXL <./DT_syn.sdf, line 6793>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r452.U1_1_8 of module ADDHXL <./DT_syn.sdf, line 6794>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.r453.U2 of module XOR2X1 <./DT_syn.sdf, line 6805>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.r453.U2 of module XOR2X1 <./DT_syn.sdf, line 6806>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.r453.U2 of module XOR2X1 <./DT_syn.sdf, line 6809>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.r453.U2 of module XOR2X1 <./DT_syn.sdf, line 6810>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r453.U1_1_1 of module ADDHXL <./DT_syn.sdf, line 6832>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r453.U1_1_1 of module ADDHXL <./DT_syn.sdf, line 6833>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r453.U1_1_1 of module ADDHXL <./DT_syn.sdf, line 6836>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r453.U1_1_1 of module ADDHXL <./DT_syn.sdf, line 6837>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r453.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 6850>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r453.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 6851>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r453.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 6854>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r453.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 6855>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r453.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 6868>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r453.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 6869>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r453.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 6872>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r453.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 6873>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r453.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 6886>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r453.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 6887>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r453.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 6890>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r453.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 6891>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r453.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 6904>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r453.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 6905>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r453.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 6908>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r453.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 6909>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r453.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 6922>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r453.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 6923>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r453.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 6926>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r453.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 6927>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r453.U1_1_7 of module ADDHXL <./DT_syn.sdf, line 6940>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r453.U1_1_7 of module ADDHXL <./DT_syn.sdf, line 6941>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r453.U1_1_7 of module ADDHXL <./DT_syn.sdf, line 6944>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r453.U1_1_7 of module ADDHXL <./DT_syn.sdf, line 6945>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r453.U1_1_8 of module ADDHXL <./DT_syn.sdf, line 6958>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r453.U1_1_8 of module ADDHXL <./DT_syn.sdf, line 6959>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r453.U1_1_8 of module ADDHXL <./DT_syn.sdf, line 6962>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r453.U1_1_8 of module ADDHXL <./DT_syn.sdf, line 6963>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r453.U1_1_9 of module ADDHXL <./DT_syn.sdf, line 6976>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r453.U1_1_9 of module ADDHXL <./DT_syn.sdf, line 6977>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r453.U1_1_9 of module ADDHXL <./DT_syn.sdf, line 6980>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r453.U1_1_9 of module ADDHXL <./DT_syn.sdf, line 6981>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r453.U1_1_10 of module ADDHXL <./DT_syn.sdf, line 6994>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r453.U1_1_10 of module ADDHXL <./DT_syn.sdf, line 6995>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r453.U1_1_10 of module ADDHXL <./DT_syn.sdf, line 6998>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r453.U1_1_10 of module ADDHXL <./DT_syn.sdf, line 6999>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r453.U1_1_11 of module ADDHXL <./DT_syn.sdf, line 7012>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r453.U1_1_11 of module ADDHXL <./DT_syn.sdf, line 7013>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r453.U1_1_11 of module ADDHXL <./DT_syn.sdf, line 7016>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r453.U1_1_11 of module ADDHXL <./DT_syn.sdf, line 7017>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.r453.U1_1_12 of module ADDHXL <./DT_syn.sdf, line 7030>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.r453.U1_1_12 of module ADDHXL <./DT_syn.sdf, line 7031>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r453.U1_1_12 of module ADDHXL <./DT_syn.sdf, line 7034>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r453.U1_1_12 of module ADDHXL <./DT_syn.sdf, line 7035>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.r456.U16 of module XNOR2X1 <./DT_syn.sdf, line 7178>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.r456.U16 of module XNOR2X1 <./DT_syn.sdf, line 7179>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.r456.U16 of module XNOR2X1 <./DT_syn.sdf, line 7182>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.r456.U16 of module XNOR2X1 <./DT_syn.sdf, line 7183>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.r456.U14 of module XOR2X1 <./DT_syn.sdf, line 7204>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.r456.U14 of module XOR2X1 <./DT_syn.sdf, line 7205>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.r456.U14 of module XOR2X1 <./DT_syn.sdf, line 7208>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.r456.U14 of module XOR2X1 <./DT_syn.sdf, line 7209>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r458.U1_1_2 of module CMPR22X2 <./DT_syn.sdf, line 7369>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r458.U1_1_2 of module CMPR22X2 <./DT_syn.sdf, line 7370>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r458.U1_1_3 of module ADDHX1 <./DT_syn.sdf, line 7402>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r458.U1_1_3 of module ADDHX1 <./DT_syn.sdf, line 7403>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r458.U1_1_7 of module ADDHX1 <./DT_syn.sdf, line 7419>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r458.U1_1_7 of module ADDHX1 <./DT_syn.sdf, line 7420>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r458.U1_1_4 of module ADDHX2 <./DT_syn.sdf, line 7436>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r458.U1_1_4 of module ADDHX2 <./DT_syn.sdf, line 7437>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r458.U1_1_5 of module ADDHX1 <./DT_syn.sdf, line 7453>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r458.U1_1_5 of module ADDHX1 <./DT_syn.sdf, line 7454>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r458.U1_1_6 of module ADDHX1 <./DT_syn.sdf, line 7470>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r458.U1_1_6 of module ADDHX1 <./DT_syn.sdf, line 7471>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.r461.U2 of module XOR2X1 <./DT_syn.sdf, line 7482>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.r461.U2 of module XOR2X1 <./DT_syn.sdf, line 7483>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r461.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 7527>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r461.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 7528>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r461.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 7544>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r461.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 7545>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r461.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 7561>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r461.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 7562>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r461.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 7578>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r461.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 7579>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.r461.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 7595>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.r461.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 7596>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture.u_dut.add_156.U2 of module XOR2X1 <./DT_syn.sdf, line 7607>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture.u_dut.add_156.U2 of module XOR2X1 <./DT_syn.sdf, line 7608>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture.u_dut.add_156.U2 of module XOR2X1 <./DT_syn.sdf, line 7611>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture.u_dut.add_156.U2 of module XOR2X1 <./DT_syn.sdf, line 7612>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.add_156.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 7634>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.add_156.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 7635>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.add_156.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 7638>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.add_156.U1_1_3 of module ADDHXL <./DT_syn.sdf, line 7639>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.add_156.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 7652>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.add_156.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 7653>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.add_156.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 7656>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.add_156.U1_1_4 of module ADDHXL <./DT_syn.sdf, line 7657>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.add_156.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 7670>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.add_156.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 7671>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.add_156.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 7674>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.add_156.U1_1_2 of module ADDHXL <./DT_syn.sdf, line 7675>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.add_156.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 7688>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.add_156.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 7689>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.add_156.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 7692>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.add_156.U1_1_5 of module ADDHXL <./DT_syn.sdf, line 7693>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.add_156.U1_1_1 of module ADDHXL <./DT_syn.sdf, line 7706>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.add_156.U1_1_1 of module ADDHXL <./DT_syn.sdf, line 7707>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.add_156.U1_1_1 of module ADDHXL <./DT_syn.sdf, line 7710>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.add_156.U1_1_1 of module ADDHXL <./DT_syn.sdf, line 7711>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture.u_dut.add_156.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 7724>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture.u_dut.add_156.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 7725>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture.u_dut.add_156.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 7728>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture.u_dut.add_156.U1_1_6 of module ADDHXL <./DT_syn.sdf, line 7729>.
+	Annotation completed with 0 Errors and 274 Warnings
+	SDF statistics: No. of Pathdelays = 1655  Annotated = 100.00% -- No. of Tchecks = 264  Annotated = 100.00% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	        1655	        1655	      100.00
+		      $width	         132	         132	      100.00
+		  $setuphold	         132	         132	      100.00
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		tsmc13_neg.ADDHX1:v <0x728b791a>
+			streams:   0, words:     0
+		tsmc13_neg.ADDHX2:v <0x164c3e75>
+			streams:   0, words:     0
+		tsmc13_neg.ADDHX4:v <0x20e774bd>
+			streams:   0, words:     0
+		tsmc13_neg.ADDHXL:v <0x6868ad06>
+			streams:   0, words:     0
+		tsmc13_neg.CMPR22X2:v <0x187e6039>
+			streams:   0, words:     0
+		tsmc13_neg.DFFRX1:v <0x06477bfc>
+			streams:   0, words:     0
+		tsmc13_neg.DFFRX1:v <0x4756f764>
+			streams:   0, words:     0
+		tsmc13_neg.DFFRX1:v <0x4810ede4>
+			streams:   0, words:     0
+		tsmc13_neg.DFFRX2:v <0x13e62650>
+			streams:   0, words:     0
+		tsmc13_neg.DFFRX2:v <0x16f3a24a>
+			streams:   0, words:     0
+		tsmc13_neg.DFFRX2:v <0x57e22ed2>
+			streams:   0, words:     0
+		tsmc13_neg.DFFRX4:v <0x3ce3dfe1>
+			streams:   0, words:     0
+		tsmc13_neg.DFFSX2:v <0x62a1150f>
+			streams:   0, words:     0
+		tsmc13_neg.XNOR2X1:v <0x1b5e4bce>
+			streams:   0, words:     0
+		tsmc13_neg.XOR2X1:v <0x5bf9a6af>
+			streams:   0, words:     0
+		worklib.DT:v <0x515aae0e>
+			streams:   0, words:     0
+		worklib.res_RAM:v <0x3ea50836>
+			streams:   5, words:  2108
+		worklib.sti_ROM:v <0x74226bc9>
+			streams:   3, words:  1540
+		worklib.testfixture:v <0x32c64a5d>
+			streams:  10, words: 16339
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                  504      78
+		UDPs:                      44       1
+		Primitives:              1014       8
+		Timing outputs:           573      22
+		Registers:                 63      24
+		Scalar wires:             625       -
+		Expanded wires:            24       2
+		Always blocks:              4       4
+		Initial blocks:            11      11
+		Pseudo assignments:         1       1
+		Timing checks:            396      58
+		Interconnect:            1383     596
+		Delayed tcheck signals:   132      48
+		Simulation timescale:     1ps
+	Writing initial simulation snapshot: worklib.testfixture:v
+Loading snapshot worklib.testfixture:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+-----------------------------------------------------
+
+START!!! Simulation Start .....
+
+-----------------------------------------------------
+
+ Output pixel: 0 ~           0 are correct!
+
+ Output pixel: 0 ~        1000 are correct!
+
+ Output pixel: 0 ~        2000 are correct!
+
+ Output pixel: 0 ~        3000 are correct!
+
+ Output pixel: 0 ~        4000 are correct!
+
+ Output pixel: 0 ~        5000 are correct!
+
+ Output pixel: 0 ~        6000 are correct!
+
+ Output pixel: 0 ~        7000 are correct!
+
+ Output pixel: 0 ~        8000 are correct!
+
+ Output pixel: 0 ~        9000 are correct!
+
+ Output pixel: 0 ~       10000 are correct!
+
+ Output pixel: 0 ~       11000 are correct!
+
+ Output pixel: 0 ~       12000 are correct!
+
+ Output pixel: 0 ~       13000 are correct!
+
+ Output pixel: 0 ~       14000 are correct!
+
+ Output pixel: 0 ~       15000 are correct!
+
+ Output pixel: 0 ~       16000 are correct!
+
+-------------------------------------------------------------
+
+Congratulations!!! All data have been generated successfully!
+
+---------- The test result is ..... PASS --------------------
+
+                                                     
+
+-----------------------------------------------------
+
+Simulation complete via $finish(1) at time 1211750612 PS + 0
+./testfixture.v:174       #(`CYCLE/3); $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Dec 06, 2021 at 16:46:32 CST  (total: 00:00:05)
